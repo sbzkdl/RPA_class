@@ -1,0 +1,6 @@
+//1~999까지의 랜덤 숫자를 만들고 이용자가 이 숫자를 추측하는 게임을 만들어보자!
+1. FlowChart로 만들 것
+2. intRandomNumber, intGuessNumber 라는 두개의 Int 변수를 만들고, strMessage라는 String 변수를 하나 만들 것
+3. new Random().next(1,999)
+4. Input Dialog를 이용해서 값을 받아서 사용할 것
+5. Flow Decision 액티비티를 놓고 Condition에 GuessNumber=RandomNumber

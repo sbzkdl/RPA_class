@@ -1,0 +1,9 @@
+해외카드사와의 정산을 위한 자료 (Billing.txt 파일을 활용할 것)
+
+   - 문서의 내용을 읽어 들여서 "Reference Number"와 "Payment Amount"를 뽑아 별도 파일에 기록 (Billing Report.txt 파일 참조)
+
+   - 정상적 Payment가 아닌 경우 (두번째 컬럼에 ERROR CORRECTION으로 표시된 부분)을 제외한 나머지 payment amount의 합을 구함
+
+   - 위에서 구한 합이 밑의 TOTAL 란의 AMOUNT OF PAYMENTS의 숫자와 같은지 확인 (같아야 함)
+
+   - 최종 Billing Report.txt가 만들어 지면 이 파일과 프로젝트 폴더를 압축하여 첨부 문서로 하여 메일 보낼 것
