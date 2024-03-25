@@ -1,0 +1,43 @@
+BHDR0000BILCDE      BRROSTNM
+BILLER CODE: 0000BILCDE                                                                        AS AT: 23 MAR 2006  RUN TIME: 20:27:40
+BILLER: LONG BILLER NAME
+A/C TO CREDIT: 083-999 999999999
+
+     CUSTOMER             PAYMENT       ERR CORR    PAYMENT AMOUNT     PAYMENT  TRANSACTION REF NBR/   PAYMENT   PAYMENT   SETTLEMENT
+  REFERENCE NUMBER    INSTRUCTION TYPE   REASON*                        TYPE**    ORIGINAL REF NBR      DATE      TIME        DATE
+
+268094663036          PAYMENT             000               $228.71      001    WBC2006032373259164    20060323  12:45:38   20060323
+466092468148          PAYMENT             000               $497.27      001    WBC2006032344314364    20060323  21:25:20   20060323
+668079302272          PAYMENT             000               $359.11      001    NAB200603223221111777  20060322  22:11:17   20060323
+668079303095          PAYMENT             000               $784.44      201    CBA200603220030014269  20060322  20:16:32   20060323
+668079306929          PAYMENT             000               $392.70      001    WBC2006032340211234    20060323  21:23:49   20060323
+668079308852          PAYMENT             000               $404.66      201    NAB200603231081055475  20060323  08:10:54   20060323
+668079309127          PAYMENT             000               $366.23      001    MEB20060310172012655   20060310  14:03:00   20060323
+668079315540          PAYMENT             000               $688.79      101    ANZ20060323419429      20060323  03:45:04   20060323
+466093064016          PAYMENT             000               $322.89      001    NAB200603233121822838  20060323  12:18:28   20060323
+466093093536          ERROR CORRECTION    004               $267.28DB    001    0732006032300009747    20060323  15:08:31   20060323
+                                                                                073200603130000031648
+466094683295          PAYMENT             000               $392.09      101    WBC2006032306031054    20060323  07:48:27   20060323
+466094685143          PAYMENT             000               $610.37      001    MBL2006032301932165    20060323  10:26:20   20060323
+466094697544          PAYMENT             000               $399.92      001    WBC2006032324282224    20060323  14:44:19   20060323
+466013390593          PAYMENT             000               $135.34      001    MEB200603225837017126  20060322  20:36:00   20060322
+
+                                          TOTALS:
+                                          -------
+                                          NUMBER OF PAYMENTS                          13
+                                          AMOUNT OF PAYMENTS                   $5,582.52
+                                          NUMBER OF ERROR CORRECTIONS                  1
+                                          AMOUNT OF ERROR CORRECTIONS          $267.28DB
+                                          NUMBER OF REVERSALS                          0
+                                          AMOUNT OF REVERSALS                      $0.00
+                                          SETTLEMENT AMOUNT                    $5,315.24
+
+ *ERR CORRECTION REASON CODE:
+  000 - NOT AN ERROR CORRECTION  001 - PAYER PAID TWICE  002 - PAYER PAID WRONG ACCOUNT  003 - PAYER PAID WRONG BILLER
+  004 - OVERPAYMENT              005 - PAYER DID NOT AUTHORISE PAYMENT  400 - VALID VISA CHARGEBACK REASON CODE
+  500 - VALID MASTERCARD CHARGEBACK REASON CODE 600 - VALID BANKCARD CHARGEBACK REASON CODE
+**PAYMENT TYPE:
+  001 - DEBIT PAYMENT  101 - VISA CARD  201 - MASTER CARD  301 - OTHER
+
+BTRL0000BILCDE      BRRO         -                          †™???
+
